@@ -1,3 +1,5 @@
+#!-*-coding: 'utf-8' -*-
+
 from tkinter import * 
 import mysql.connector, pyttsx3
 import speech_recognition as sr 
