@@ -81,7 +81,7 @@ class Face():
             self.saisie.config(bg='green')
             self.saisie.update()
             
-        #  première chose à faire
+        #  première chose a faire
         self.cursor.execute("SELECT emet, recep FROM salutation;")
         greet = self.salutation(self.cursor.fetchall(), speak)
         if greet != False:
