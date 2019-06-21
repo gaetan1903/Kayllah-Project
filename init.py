@@ -13,7 +13,8 @@ class Face():
         self.root.bind('<Button-1>', self.recup)
         self.r = sr.Recognizer()
         self.mic = sr.Microphone()
-        self.tts = pyttsx3.init()   
+        self.tts = pyttsx3.init()
+        self.tts = setProperty('voice', fr_voice_id)
         self.tts.setProperty('volume',1.0)
 
     
